@@ -1,0 +1,33 @@
+.img-card-review {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img-card-character {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card-cast-movie {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.name-cast {
+  white-space: nowrap;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.review-form {
+  max-width: 500px;
+}
+
+.no-review {
+  height: 250px;
+}
